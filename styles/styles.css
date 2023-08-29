@@ -40,9 +40,14 @@ h2 {
     color: #121212;
 }
 
-a {
+.btn {
+    display: inline-flex;
+    padding: 20px 40px;  
+    border-radius: 5px;
     font-size: 20px;
-    line-height: 27pxl;
+    line-height: 27px;
     letter-spacing: -0.6px;
-    color: #121111;
+    color: #FFFFFF;
+    background: #AD1818;
+    text-decoration: none;
 }
