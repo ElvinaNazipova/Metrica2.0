@@ -5,6 +5,7 @@ body {
 
 h1{
     width: 956px; 
+    margin-bottom: 30px;
     font-size: 60px;  
     letter-spacing: -1.8px;
     color: #121212;
@@ -13,10 +14,12 @@ h1{
 .img-fon {
     width: 1150px;
     height: 500px;
+    margin-bottom: 150px;
     background-image: url(../resources/кресло.png);
 }
 
 .img-fon-text-wrapper{
+    padding: 379px 680px 40px 40px;
     width: 430px; 
     font-size: 20px; 
     line-height: 27px;
