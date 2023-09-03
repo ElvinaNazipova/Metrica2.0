@@ -10,7 +10,6 @@ body {
   margin: 0 auto;
   padding: 125px;
   width: 1400px;
-  height: 7211px;
   background: #ffffff;
 }
 
@@ -50,7 +49,7 @@ h1 {
   width: 1051px;
 }
 
-h2 {
+.header {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -127,7 +126,16 @@ h2 {
   color: #ffffff;
 }
 
-.container_black {
-  height: 1844px;
+.container__black {
   background-color: #121212;
+  width: 1400px;
+  height: 1844px;
+}
+
+.header_white {
+  color: #ffffff;
+}
+
+.project-text_white {
+  color: #ffffff;
 }
