@@ -87,3 +87,10 @@ h2 {
   letter-spacing: -0.9px;
   color: #121212;
 }
+
+.project-btn {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.6px;
+  color: #ad1818;
+}
