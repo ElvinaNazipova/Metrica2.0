@@ -10,10 +10,11 @@ body {
   margin: 0 auto;
   padding: 125px;
   width: 1400px;
+  height: 7211px;
   background: #ffffff;
 }
 
-section {
+.home {
   margin-bottom: 150px;
 }
 
@@ -45,17 +46,28 @@ h1 {
   color: #ffffff;
 }
 
+.historys {
+  margin-bottom: 150px;
+}
+
 .history_home {
   width: 1051px;
 }
 
-.header {
-  margin-bottom: 30px;
+h2 {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
   color: #121212;
+}
+
+.projects {
+  margin-bottom: 150px;
+}
+
+.header {
+  margin-bottom: 30px;
 }
 
 .history {
@@ -89,13 +101,16 @@ h1 {
   margin-bottom: 90px;
 }
 
-.project-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+h3 {
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.9px;
   color: #121212;
+}
+
+.text {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .project-btn {
@@ -127,15 +142,19 @@ h1 {
 }
 
 .container__black {
+  padding-top: 151px;
   background-color: #121212;
   width: 1400px;
   height: 1844px;
 }
 
 .header_white {
+  margin-bottom: 34px;
   color: #ffffff;
 }
 
-.project-text_white {
+.text_white {
+  margin-top: 15px;
+  margin-bottom: 60px;
   color: #ffffff;
 }
