@@ -28,14 +28,14 @@ h1 {
   letter-spacing: -1.8px;
 }
 
-.img-fon {
+.home-fon {
   position: relative;
   width: 1150px;
   height: 500px;
   background-image: url(../resources/кресло.png);
 }
 
-.img-text {
+.home-text {
   position: absolute;
   left: 40px;
   top: 379px;
@@ -121,7 +121,7 @@ h3 {
   color: #ffffff;
 }
 
-.black-fon {
+.services {
   margin: 0 auto;
   width: 1150px;
 }
