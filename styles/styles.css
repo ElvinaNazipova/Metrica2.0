@@ -66,15 +66,19 @@ h2 {
 }
 
 .btn {
-  padding: 20px 40px;
-  display: inline-flex;
-  border-radius: 5px;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.6px;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.history-btn {
+  padding: 20px 40px;
+  display: inline-flex;
+  border-radius: 5px;
   color: #ffffff;
   background: #ad1818;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -88,17 +92,9 @@ h3 {
   letter-spacing: -0.9px;
 }
 
-.text {
+.project-text {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-.project-btn {
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: -0.6px;
-  color: #ad1818;
-  text-decoration: none;
 }
 
 .btn-base {
