@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  padding: 150px 125px 0 125px;
+  padding: 0 125px 150px 125px;
 }
 
 .section-black {
@@ -16,7 +16,7 @@ section {
 .historys,
 .projects {
   margin: 0 auto;
-  width: 1400px;
+  width: 1150px;
   background: #ffffff;
 }
 
@@ -105,9 +105,8 @@ h3 {
 }
 
 .btn-base {
-  margin-bottom: 150px;
   display: block;
-  width: 100%;
+  width: 1150px;
   height: 153px;
   line-height: 153px;
   border-radius: 5px;
@@ -126,18 +125,25 @@ h3 {
 }
 
 .black-fon {
-  box-sizing: border-box;
   margin: 0 auto;
   width: 1150px;
 }
 
 .header_white {
+  padding-top: 150px;
   margin-bottom: 34px;
   color: #fff;
 }
 
+.price {
+  margin-bottom: 60px;
+}
+
+.price:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
 .text_white {
   margin-top: 15px;
-  margin-bottom: 60px;
-  color: #ffffff;
+  color: #fff;
 }
