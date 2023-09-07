@@ -2,6 +2,7 @@ body {
   width: 100%;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
+  color: #121212;
 }
 
 section {
@@ -25,7 +26,6 @@ h1 {
   margin-bottom: 30px;
   font-size: 60px;
   letter-spacing: -1.8px;
-  color: #121212;
 }
 
 .img-fon {
@@ -51,7 +51,6 @@ h2 {
   line-height: 25px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
-  color: #121212;
 }
 
 .header {
@@ -64,7 +63,6 @@ h2 {
   font-size: 45px;
   line-height: 61px;
   letter-spacing: -1.35px;
-  color: #121212;
 }
 
 .btn {
@@ -88,7 +86,6 @@ h3 {
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.9px;
-  color: #121212;
 }
 
 .text {
