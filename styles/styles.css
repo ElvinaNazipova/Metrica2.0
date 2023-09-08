@@ -9,7 +9,7 @@ section {
   padding: 0 125px 150px 125px;
 }
 
-.section-black {
+.services {
   background-color: #121212;
 }
 
@@ -117,7 +117,7 @@ img {
   color: #ffffff;
 }
 
-.services {
+.services__inner {
   margin: 0 auto;
   width: 1150px;
   padding-top: 151px;
