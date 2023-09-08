@@ -119,9 +119,7 @@ h3 {
   width: 1150px;
 }
 
-.title_white {
-  padding-top: 150px;
-  margin-bottom: 34px;
+.price_white {
   color: #fff;
 }
 
@@ -131,9 +129,4 @@ h3 {
 
 .price:nth-last-child(1) {
   margin-bottom: 0;
-}
-
-.text_white {
-  margin-top: 15px;
-  color: #fff;
 }
