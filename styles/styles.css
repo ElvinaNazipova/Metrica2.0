@@ -70,7 +70,7 @@ h2 {
   text-decoration: none;
 }
 
-.history-btn {
+.btn-history {
   padding: 20px 40px;
   display: inline-flex;
   border-radius: 5px;
@@ -97,7 +97,7 @@ img {
   margin-bottom: 15px;
 }
 
-.btn-base {
+.btn-project {
   display: block;
   width: 1150px;
   height: 153px;
@@ -112,7 +112,7 @@ img {
   cursor: pointer;
 }
 
-.btn-base:hover {
+.btn-project:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
