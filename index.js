@@ -37,3 +37,29 @@ switch (a) {
         case 40:
         break;
 }
+
+
+//функции 
+
+console.log(sum(1, 3));
+
+function sum(a, b) {
+    return a + b;
+    
+}
+
+const name = 'Elvina';
+const surname = 'Nazipova';
+const fullname = SNG(name, surname)
+console.log(fullname);
+function SNG(name, surname) {
+    return `${name} ${surname}`;
+}
+
+const myage = 21;
+const tanets = isAdilt(myage);
+console.log(tanets);
+function isAdilt(age) {
+    return age> 18;
+    
+}
