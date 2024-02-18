@@ -1,65 +1,29 @@
-//if-else
-const ticket = false //билет
-const international = true//загранпаспорт
-const visa = false//виза
-const money = true//деньги
-const emotionnot = false //нет эмоций 
-const age = 21;
+//Задание 1. 
+//Напишите функцию multiple(a, b), которая перемножает два числа между собой. Функция возвращает результат умножения.
 
-
-if (((visa && money) || ticket === international || !emotionnot) && (age>  18)) {
-    console.log('Ты летишь в Швейцарию');
-} else {
-    console.log("Постарайтесь в следующий раз");
+console.log(multiple(1, 5));
+function multiple(a, b) {
+    return a * b;
 }
 
-//if-else-if
-const weather = "sunny"
-const time = "night"
+//Задание 2 
+// Напишите функцию buildDate(day, month, year), которая принимает на вход числами день недели, месяц и год. Функция возвращает дату строкой в формате dd/mm/yyyy.
 
-if ("rain" === weather) {
-    console.log("Еду на автобусе");
-} else if (time === "morning") {
-    console.log('Еду на велике');
-}
-else {
-    console.log("Еду на машине");
-}
+ 
+//const date = new Date ()
 
-//switch-case
-const a = 10 + 10;
+//console.log(date);
 
-switch (a) {
-    case 10:
-        break;
-        case 20:
-        break;
-        case 40:
-        break;
-}
+//function buildDate(day, month, year) {
+   // return `$ {day} $ {month} $ {year}`; 
+//}
 
-
-//функции 
-
-console.log(sum(1, 3));
-
-function sum(a, b) {
-    return a + b;
+//3
+console.log(isAdult(21));
+function isAdult(age) {
+  
+    return age > 18 || age == 18;
     
 }
 
-const name = 'Elvina';
-const surname = 'Nazipova';
-const fullname = SNG(name, surname)
-console.log(fullname);
-function SNG(name, surname) {
-    return `${name} ${surname}`;
-}
-
-const myage = 21;
-const tanets = isAdilt(myage);
-console.log(tanets);
-function isAdilt(age) {
-    return age> 18;
-    
-}
+//4
