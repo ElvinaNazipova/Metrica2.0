@@ -10,7 +10,7 @@ function multiple(a, b) {
 //Напишите функцию buildDate(day, month, year), которая принимает на вход числами день недели, месяц и год. Функция возвращает дату строкой в формате dd/mm/yyyy.
 
  
-const date = buildDate(20, 02, 2024)
+const date = buildDate(20, 2, 2024)
 
 console.log(date);
 
