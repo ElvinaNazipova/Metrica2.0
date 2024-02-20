@@ -7,16 +7,16 @@ function multiple(a, b) {
 }
 
 //Задание 2 
-// Напишите функцию buildDate(day, month, year), которая принимает на вход числами день недели, месяц и год. Функция возвращает дату строкой в формате dd/mm/yyyy.
+//Напишите функцию buildDate(day, month, year), которая принимает на вход числами день недели, месяц и год. Функция возвращает дату строкой в формате dd/mm/yyyy.
 
  
-//const date = new Date ()
+const date = buildDate(20, 02, 2024)
 
-//console.log(date);
+console.log(date);
 
-//function buildDate(day, month, year) {
-   // return `$ {day} $ {month} $ {year}`; 
-//}
+function buildDate(day, month, year) {
+   return `${day.toString()}/${month.toString().padStart(2, '0')}/${year.toString()}`
+}
 
 //3
 console.log(isAdult(21));
