@@ -61,3 +61,25 @@ function getMonthByNumber (monthNumber) {
             return 'Некорректный номер месяца';
     }
 }
+
+//5
+
+
+ 
+console.log(convertRub(1000, 'AED'));
+
+function convertRub(valueRub, currency) {
+    switch (currency) {
+        case 'USD':
+            return valueRub / 93.06;
+        case 'EUR':
+            return valueRub / 100.73;
+        case 'KZT':
+            return valueRub / 0.21;
+        case 'AED':
+            return valueRub / 25.34;
+    
+        default:
+            return 'Неизвестная валюта';
+    } 
+}
