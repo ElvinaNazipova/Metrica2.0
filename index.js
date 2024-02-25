@@ -1,6 +1,7 @@
-  let number =1;
+let number =13;
 
-  while (number <=10) {
+do {
     console.log(number);
     number=number+1;
-  }
+    
+} while (number <=10);
