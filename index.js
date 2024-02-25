@@ -1,14 +1,6 @@
+  let number =1;
 
-const age = parseInt(prompt ('Введите свой возраст'))
-console.log(parseInt(age));
-if (isAdult(age)) {
-    alert ("Вы можете посетить страницу")
-} else {
-    alert ('Вы не достигли возраста подходящего')
-}
-
-alert (`Ваш возвраст: ${age}`)
-
-function isAdult(age) {
-    return age > 18
-}
+  while (number <=10) {
+    console.log(number);
+    number=number+1;
+  }
