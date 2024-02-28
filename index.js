@@ -7,3 +7,13 @@ function  printNumbers() {
 }
 
 printNumbers();
+
+//Задание 2 
+
+function printNumbersByRange(start,end) {
+    for (let i = start; i <= end; i++) {        
+        console.log(i);    
+    }
+
+}
+printNumbersByRange(-3,2);
