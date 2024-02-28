@@ -26,24 +26,24 @@ console.log(person.getFullName());
 console.log(person.isAdult());
 
 
-// const people =[
-//     {
-//     age: 21,
-//     name: 'Elvina',
-//     surname: "Nazipova",
-//     city: "Surgut"
-//     },
-//     {
-//     age: 22,
-//     name: 'Rasd',
-//     surname: "Poyt",
-//     city: "Kipr"
-//     }
-// ]
+const people =[
+    {
+    age: 21,
+    name: 'Elvina',
+    surname: "Nazipova",
+    city: "Surgut"
+    },
+    {
+    age: 22,
+    name: 'Rasd',
+    surname: "Poyt",
+    city: "Kipr"
+    }
+]
 
-// people.forEach(man => {
-//     console.log(man.age);
+people.forEach(man => {
+    console.log(man.age);
 
-// }
+}
 
-// )
+)
